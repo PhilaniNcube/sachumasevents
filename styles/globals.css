@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'LightBeach';
+  src: url('/fonts/LightBeach/LightBeach.otf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+body {
+  @apply font-mont;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-beach;
+}
+
+.box-1 {
+  background-image: url('/images/cake.jpg');
+}
+
+.box-1:hover > div,
+.box-2:hover > div,
+.box-3:hover > div,
+.box-4:hover > div,
+.box-5:hover > div,
+.box-6:hover > div {
+  display: flex;
+  background-opacity: 0.5;
+  background-blend-mode: multuply;
+}
+
+.box-2 {
+  background-image: url('/images/party.jpg');
+}
+.box-3 {
+  background-image: url('/images/ring.jpg');
+}
+.box-4 {
+  background-image: url('/images/grad.jpg');
+}
+.box-5 {
+  background-image: url('/images/selfie.jpg');
+}
+.box-6 {
+  background-image: url('/images/bride.jpg');
+}
