@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero:
-          "linear-gradient(to right, rgba(124, 34, 206, 1), rgba(124, 34, 206, 0.85), rgba(124, 34, 206, 0.45) ), url('/images/hall.jpg')",
+          "linear-gradient(to right, rgba(124, 34, 206, 1), rgba(124, 34, 206, 0.85), rgba(124, 34, 206, 0.45) ), url('/images/hall-3.jpg')",
         services: "url('/images/disco.jpg')",
       },
     },
