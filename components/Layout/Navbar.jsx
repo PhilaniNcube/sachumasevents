@@ -34,9 +34,6 @@ const Navbar = () => {
           <h3 className="font-bold text-xl text-violet-700 italic">
             Sachuma's
           </h3>
-          <p className="text-xs text-gray-900 uppercase">
-            Inspirational Events & Decor
-          </p>
         </div>
         <ul className="hidden lg:flex lg:flex-1 h-full justify-center items-center space-x-4 text-gray-900">
           {navigation.map((link) => {
