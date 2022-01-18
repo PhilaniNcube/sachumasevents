@@ -112,7 +112,9 @@ const Services = () => {
                   d="M12 4v16m8-8H4"
                 />
               </svg>
-              <p className="text-3xl uppercase text-center">Parties</p>
+              <p className="text-3xl uppercase text-center">
+                Anniversary & Weddings
+              </p>
             </div>
           </div>
           <div className="border-4 border-white min-h-[40vw] lg:min-h-[26vw] bg-center bg-cover bg-no-repeat box-6">

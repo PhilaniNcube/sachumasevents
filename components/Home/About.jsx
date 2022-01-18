@@ -23,8 +23,8 @@ const About = () => {
           <p className="text-sm leading-4">
             Our Company is located in Gqeberha (formerly known as Port
             Elizabeth). Our Event Planning company has been serving
-            EXTRA-ORDINARY events for since 2018. We cater for all types of
-            events, including corporate events. We take pride in everything wedo
+            EXTRA-ORDINARY events since 2018. We cater for all types of
+            events, including corporate events. We take pride in everything we do
             and aim to make our clients happy at all times.
           </p>
           <p className="text-sm font-bold mt-6">Our Vision & Mission</p>
