@@ -31,9 +31,11 @@ const Navbar = () => {
     <div className="bg-white">
       <nav className="max-w-6xl mx-auto flex justify-between items-center space-x-5 py-4">
         <div className="h-full">
-          <h3 className="font-bold text-xl text-violet-700 italic">
-            Sachuma's
-          </h3>
+          <img
+            src="/images/logo.svg"
+            className="h-12 object-cover"
+            alt="logo"
+          />
         </div>
         <ul className="hidden lg:flex lg:flex-1 h-full justify-center items-center space-x-4 text-gray-900">
           {navigation.map((link) => {

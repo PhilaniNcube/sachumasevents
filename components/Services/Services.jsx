@@ -33,7 +33,7 @@ const Services = () => {
               <p className="text-3xl uppercase text-center">Baby Showers</p>
             </div>
           </div>
-          <div className="border-4 border-white min-h-[40vw] lg:min-h-[26vw] bg-center bg-cover bg-no-repeat box-2 translate-y-6">
+          <div className="border-4 border-white min-h-[40vw] lg:min-h-[26vw] bg-center bg-cover bg-no-repeat box-2 md:translate-y-6">
             <div className="hidden flex-col justify-center items-center h-full px-16 space-y-4 hover:bg-violet-600 hover:bg-opacity-70 hover:backdrop-blur-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="border-4 border-white min-h-[40vw] lg:min-h-[26vw] bg-center bg-cover bg-no-repeat box-5 translate-y-6">
+          <div className="border-4 border-white min-h-[40vw] lg:min-h-[26vw] bg-center bg-cover bg-no-repeat box-5 md:translate-y-6">
             <div className="hidden flex-col justify-center items-center h-full px-16 space-y-4 hover:bg-violet-600 hover:bg-opacity-70 hover:backdrop-blur-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
