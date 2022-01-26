@@ -13,8 +13,8 @@ const Services = () => {
             services
           </span>
         </h2>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-white">
-          <div className="border-4 border-white min-h-[40vw] lg:min-h-[26vw] bg-center bg-cover bg-no-repeat box-1 ">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-white z-0">
+          <div className="border-4 border-white min-h-[40vw] lg:min-h-[26vw] bg-center bg-cover bg-no-repeat box-1">
             <div className="hidden flex-col justify-center items-center h-full px-16 space-y-4 hover:bg-violet-600 hover:bg-opacity-70 hover:backdrop-blur-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

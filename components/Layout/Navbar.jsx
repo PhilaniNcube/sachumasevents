@@ -28,7 +28,7 @@ const CELL_NUMBER = '27817551279';
 
 const Navbar = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white fixed top-0 w-full z-10">
       <nav className="max-w-6xl mx-auto flex justify-between items-center space-x-5 py-4">
         <div className="h-full">
           <img
@@ -42,7 +42,9 @@ const Navbar = () => {
             return (
               <li key={link.url}>
                 <Link href={link.url}>
-                  <a className="text-sm font-medium">{link.page}</a>
+                  <a className="text-md font-semibold focus:text-violet-600">
+                    {link.page}
+                  </a>
                 </Link>
               </li>
             );

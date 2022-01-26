@@ -25,6 +25,7 @@ h6 {
 
 .box-1 {
   background-image: url('/images/cake.jpg');
+  z-index: 1;
 }
 
 .box-1:hover > div,
