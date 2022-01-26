@@ -5,7 +5,7 @@ export default function ContactDetails() {
     <div>
       <div className="py-12 2xl:px-20 px-6 xl:mx-auto xl:container">
         <div className="flex flex-col items-center">
-          <h1 className="text-5xl font-bold text-gray-800 text-center">
+          <h1 className="text-5xl font-bold text-violet-600 text-center">
             Contact us
           </h1>
           <p className="text-base leading-normal  text-gray-600 mt-5 text-center md:w-3/5">
@@ -88,7 +88,7 @@ export default function ContactDetails() {
                 Email
               </p>
               <p className="text-base mt-4 leading-4 text-center text-gray-600">
-                info@sachumasevents.co.za
+                info@sachumasevents.com
               </p>
             </div>
             <div className="bg-white border rounded-md border-gray-200 h-64 flex flex-col items-center ">
